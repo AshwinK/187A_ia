@@ -12,3 +12,5 @@ $(document).ready(function() {
 $(window).load(function() {
     $('#slider').nivoSlider();
 });
+
+$('.dropdown-toggle').dropdown()
