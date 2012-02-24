@@ -1,3 +1,4 @@
+
 .search_box_top_nav {
     margin-top: 6.5px;
 }
@@ -10,6 +11,22 @@
     margin-left: 0px;
 }
 
-white_font {
-    color: white;
+.navbar .nav > li > a {
+float: none;
+padding: 10px 10px 11px;
+line-height: 19px;
+color: white;
+text-decoration: none;
+text-shadow: 0 -1px 0 rgba(277, 66, 52, .25);
+font-size: 15px;
 }
+
+.navbar .nav > li {
+    margin-left: 0px;
+}
+
+#dropdown_nav {
+    height: 80px;
+}
+
+
