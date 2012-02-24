@@ -25,6 +25,7 @@ font-size: 15px;
     margin-left: 0px;
 }
 
+
 #dropdown_nav {
     margin-top: 21px;
     height: 36px;
@@ -36,10 +37,21 @@ font-size: 15px;
 
 #nav-top {
     height: 45px;
+    background-color: white;
 }
 
 #search_top_nav {
     margin-left: 14px;
+}
+
+#third_nav {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#third_nav a {
+    color: rgb(227, 66, 52);
 }
 
 /*Navbar 2 Stuff (Dropdown Nav)
@@ -52,4 +64,4 @@ padding-left: 6px;
 margin-right: 2px;
 line-height: 14px;
 }
- 
+
