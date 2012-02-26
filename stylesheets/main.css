@@ -29,7 +29,7 @@ font-size: 15px;
 #dropdown_nav {
     margin-top: 32px;
     height: 36px;
-    margin-left: 168px;
+    margin-left: 31px;
 }
 
 #logo {
@@ -41,7 +41,7 @@ font-size: 15px;
 }
 
 #search_top_nav {
-    margin-left: 14px;
+    margin-left: 84px;
 }
 
 #third_nav {
@@ -54,6 +54,15 @@ font-size: 15px;
     color: rgb(227, 66, 52);
 }
 
+.navbar .nav > li > a:hover {
+  background-color: transparent;
+  color:  rgb(227, 66, 52);
+  text-decoration: none;
+}
+
+.dropdown_spacing_resources {
+    margin-right: 60px;
+}
 
 /*Navbar 3 Stuff (Indexed Nav)
 --------------------------------------------------------------------------------------------------------------
@@ -69,7 +78,13 @@ line-height: 14px;
 /*Navbar 2 Stuff (Dropdown Nav)
 --------------------------------------------------------------------------------------------------------------
 */
+.entire_dropdown_shift_left {
+    margin-right: 100px;
+}
 
+.dropdown_spacing {
+    padding-right: 40px;
+}
 
 .navbar2 {
   overflow: visible;
@@ -79,7 +94,7 @@ line-height: 14px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: rgb(255,255,255);
-  font-size: 24px;
+  
   /*
   background-image: -moz-linear-gradient(top, #333333, #222222);
   background-image: -ms-linear-gradient(top, #333333, #222222);
@@ -99,6 +114,11 @@ line-height: 14px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   */
 }
+
+#second_nav_dropdown_link {
+    font-size: 24px;
+}
+
 .btn-navbar {
   display: none;
   float: right;
