@@ -354,3 +354,48 @@ select,
   filter: alpha(opacity=30);
   content: "\2193";
 }
+
+
+/*Footer Stuff
+--------------------------------------------------------------------------------------------------------------
+*/
+
+.hero-unit1 {
+  padding: 60px;
+  margin-bottom: 30px;
+  background-color: black;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+  background-color: black;
+}
+
+#footerlogo_pushright {
+    margin-left: 191px;
+    margin-top: 18px;
+}
+
+.footer {
+    margin-left: 171px;
+}
+
+#footer_address {
+    margin-left: 43px;
+    margin-top: 22px;
+    color: white;
+    margin-top: 37px;
+}
+
+#footerbar {
+    margin-left: 290px;
+    margin-top: 11px;
+}
+
+#footer_menu {
+    margin-left: -77px;
+}
