@@ -65,8 +65,10 @@ font-size: 15px;
 }
 
 ul.nav2 li.dropdown:hover ul.dropdown-menu{
+    /*allows for hovering over the dropdown to active it*/
     display: block;    
 }
+
 
 /*Navbar 3 Stuff (Indexed Nav)
 --------------------------------------------------------------------------------------------------------------
