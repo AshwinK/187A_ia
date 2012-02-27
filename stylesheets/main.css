@@ -455,6 +455,7 @@ select,
   overflow: hidden;
   width: 100%;
   position: relative;
+  margin-left: 10px;
 }
 .carousel .item {
   display: none;

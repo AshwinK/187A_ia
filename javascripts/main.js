@@ -5,7 +5,7 @@ $(document).ready(function() {
   $('.fancybox').fancybox();
   
   $('.carousel').carousel({
-    interval: 6000
+    interval: 8000
   })
   
   $(".carousel-inner").mouseenter(function() { 
