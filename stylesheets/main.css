@@ -52,6 +52,7 @@ font-size: 15px;
 
 #third_nav a {
     color: rgb(227, 66, 52);
+    padding-left: 4px;
 }
 
 .navbar .nav > li > a:hover {
@@ -381,7 +382,8 @@ select,
 }
 
 .footer {
-    margin-left: 171px;
+    margin-left: 191px;
+    margin-top: 15px;
 }
 
 #footer_address {
@@ -392,10 +394,47 @@ select,
 }
 
 #footerbar {
-    margin-left: 290px;
+    margin-left: 246px;
     margin-top: 11px;
 }
 
 #footer_menu {
-    margin-left: -77px;
+    margin-left: -46px;
+}
+
+#footer_menu ul {
+    list-style-type: none;
+    margin-top: 6px;
+}
+
+#footer_menu_link {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+#footer_menu_link a {
+    color: white;
+}
+
+#footer_menu_link a:hover {
+    color: rgb(277, 66, 52);
+}
+
+#musty_footer {
+    background-color: rgb(239, 243, 210);
+}
+
+#musty_footer_link {
+    display: inline;
+    padding-right: 63px;
+    margin-top: 10px;
+}
+
+#musty_footer_link a {
+    color: black;
+    font-size: 15px;
+}
+
+#musty_footer_link a:hover {
+    color: rgb(277, 66, 52);
 }
