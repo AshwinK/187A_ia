@@ -2,15 +2,22 @@ $(document).ready(function() {
 
   /*Put your Javascript code here*/
 
-  /*
-    Simple image gallery. Use default settings
-  */
   $('.fancybox').fancybox();
-  $('.carousel').carousel();
+  
+  $('.carousel').carousel({
+    interval: 6000
+  })
+  
+  $(".carousel-inner").mouseenter(function() { 
+                $('.carousel').carousel('pause'); 
+        }).mouseleave(function() { 
+                $('.carousel').carousel('cycle'); 
+        }); 
+    
+
 
 
 });
-
 
 
 
