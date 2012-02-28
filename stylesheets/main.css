@@ -422,7 +422,7 @@ select,
 }
 
 #musty_footer {
-    background-color: rgb(239, 243, 210);
+    background-color: rgb(239, 241, 208);
 }
 
 #musty_footer_link {
@@ -448,7 +448,7 @@ select,
 
 .carousel {
   position: relative;
-  margin-bottom: 18px;
+  margin-bottom: 0px;
   line-height: 1;
   width: 640px;
   margin-right: 8px;
@@ -557,8 +557,16 @@ select,
 
 #second_element {
     margin-top: 0px;
+    height: 360px;
 }
 
 #home_logo {
     margin-top: 16px;
+}
+
+#middle_stuff {
+    background-color: rgb(235, 239, 195);
+    background-image: url('images/background_seal.gif');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
