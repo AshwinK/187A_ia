@@ -569,4 +569,9 @@ select,
     background-image: url('images/background_seal.gif');
     background-repeat:no-repeat;
     background-attachment:fixed;
+    margin-left: 25px;
+}
+
+ {
+    background-color: rgb(235, 239, 195);
 }
