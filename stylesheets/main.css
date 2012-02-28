@@ -27,9 +27,10 @@ font-size: 15px;
 
 
 #dropdown_nav {
-    margin-top: 32px;
+    margin-top: 49px;
     height: 36px;
     margin-left: 31px;
+    margin-bottom: 0px;
 }
 
 #logo {
@@ -47,13 +48,13 @@ font-size: 15px;
 #third_nav {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
-    line-height: 18px;
 }
 
 #third_nav a {
     color: rgb(227, 66, 52);
     padding-left: 4px;
 }
+
 
 .navbar .nav > li > a:hover {
   background-color: transparent;
@@ -444,11 +445,13 @@ select,
 --------------------------------------------------------------------------------------------------------------
 */
 
+
 .carousel {
   position: relative;
   margin-bottom: 18px;
   line-height: 1;
   width: 641px;
+  margin-right: 8px;
   
 }
 .carousel-inner {
@@ -537,4 +540,25 @@ select,
 }
 .carousel-caption h4, .carousel-caption p {
   color: #ffffff;
+}
+
+
+/* Middle of Home Page Stuff
+--------------------------------------------------------------------------------------------------------------
+*/
+
+#walkofhonor {
+    height: 360px;
+}
+
+#first_element {
+    height: 120px;
+}
+
+#second_element {
+    margin-top: 0px;
+}
+
+#home_logo {
+    margin-top: 16px;
 }
