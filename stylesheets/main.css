@@ -672,3 +672,49 @@ select,
   color:  rgb(227, 66, 52);
   text-decoration: none;
 }
+
+
+
+
+/*--------------------------------------------------Secondary Pages-------------------------------------------------*/
+
+#content_row_s {
+    background:url(secondary_seal.jpg);
+    background-color: rgb(239,239,239);
+    -moz-background-size:; /* Firefox 3.6 */
+    background-size:;
+    background-repeat:repeat-x;
+}
+
+.sidebar-nav {
+    margin-left: 170px;
+    margin-right: -200px;
+    margin-top: 110px;
+    
+}
+
+.breadcrumb {
+    margin-top: 20px;
+    margin-left: 190px;
+    width: 910px;
+}
+
+#sidebar_link {
+    color: rgb(277, 66, 52);
+}
+
+#breadcrumb_link {
+    color: rgb(277, 66, 52);
+}
+
+#secondary_pg_header {
+    color:white;
+    margin-left: 190px;
+    font-size: 450%;
+}
+
+#header_description {
+    color:white;
+    margin-left: 190px;
+
+}
