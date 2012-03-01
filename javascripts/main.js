@@ -14,8 +14,8 @@ $(document).ready(function() {
                 $('.carousel').carousel('cycle'); 
         }); 
     
-
-
+  $('#example').popover(options);
+  
 
 });
 

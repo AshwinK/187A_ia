@@ -687,8 +687,12 @@ select,
 }
 
 .sidebar-nav {
+     border-top: 6px solid #A51C30;
+     border-top-width: 6px;
+     border-top-style: solid;
+     border-top-color: red;
     margin-left: 170px;
-    margin-right: -200px;
+    margin-right: -190px;
     margin-top: 51px;
     background-color: white;
     padding: 10px 10px 10px 10px;
@@ -700,6 +704,12 @@ select,
     width: 910px;
 }
 
+#content_row_super {
+    background:url(fac_1.bmp);
+    -moz-background-size:; /* Firefox 3.6 */
+    background-repeat:repeat-x;
+
+}
 
 #breadcrumb_link {
     color: rgb(277, 66, 52);
@@ -721,10 +731,13 @@ select,
 
 
 .nav-list .active > a {
-  color: black;
+
+  color: #555555;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
   background-color: rgb(277, 66, 52);
-  font-size: 18px;
+  font-size: 12px;
+  font-family:Arial,Helvetica,sans-serif;
+  font-weight: bold;
   padding: 10px 10px 10px 10px;
 }
 
@@ -733,10 +746,12 @@ select,
 }
 
 .nav-list .inactive > a {
-  color: black;
+  color: #555555;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
-  font-size: 18px;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
   padding: 10px 10px 10px 10px;
 }
 
@@ -749,17 +764,22 @@ select,
 /*-------------------------------Accordian Stuff----------------------------------*/
 
 .accordion {
-  margin-top: 50px;
+    border-top: 6px solid #A51C30;
+     border-top-width: 6px;
+     border-top-style: solid;
+     border-top-color: red;
+  margin-top: 51px;
   margin-bottom: 18px;
   margin-left: 220px;
 }
 
 .accordion-group {
+     
   margin-bottom: 2px;
   border: 1px solid #e5e5e5;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   background-color: white;
 }
 
