@@ -3217,6 +3217,7 @@ a.thumbnail:hover {
 }
 .accordion {
   margin-bottom: 18px;
+  
 }
 .accordion-group {
   margin-bottom: 2px;
@@ -3224,6 +3225,7 @@ a.thumbnail:hover {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  background-color: white;
 }
 .accordion-heading {
   border-bottom: 0;

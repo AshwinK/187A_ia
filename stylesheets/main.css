@@ -689,19 +689,17 @@ select,
 .sidebar-nav {
     margin-left: 170px;
     margin-right: -200px;
-    margin-top: 110px;
-    
+    margin-top: 51px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
 }
 
 .breadcrumb {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 190px;
     width: 910px;
 }
 
-#sidebar_link {
-    color: rgb(277, 66, 52);
-}
 
 #breadcrumb_link {
     color: rgb(277, 66, 52);
@@ -710,11 +708,45 @@ select,
 #secondary_pg_header {
     color:white;
     margin-left: 190px;
-    font-size: 450%;
+    font-size: 300%;
+    margin-top: -20px;
 }
 
 #header_description {
     color:white;
     margin-left: 190px;
+}
 
+/*-------------------------------Sidebar Navigation Stuff----------------------------------*/
+
+.nav-list .active > a {
+  color: black;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(277, 66, 52);
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav-list .active > a:hover {
+  background-color: rgb(277, 66, 52);
+}
+
+.nav-list .inactive > a {
+  color: black;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav-list .inactive > a:hover {
+  background-color: white;
+  text-decoration: underline;
+  color: rgb(277, 66, 52);
+}
+
+/*-------------------------------Accordian Stuff----------------------------------*/
+
+div.accordian {
+    background-color: white;
 }
