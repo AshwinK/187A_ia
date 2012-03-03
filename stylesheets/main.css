@@ -4,7 +4,7 @@
 }
 
 .search_icon_top_nav {
-    margin-top: 4px;
+    margin-top: 5px;
 }
 
 .home_logo {
@@ -13,7 +13,7 @@
 
 .navbar .nav > li > a {
 float: none;
-padding: 10px 10px 11px;
+padding: 10px 17px 11px;
 line-height: 19px;
 color: white;
 text-decoration: none;
@@ -27,7 +27,7 @@ font-size: 15px;
 
 
 #dropdown_nav {
-    margin-top: 49px;
+    margin-top: 45px;
     height: 36px;
     margin-left: 31px;
     margin-bottom: 0px;
@@ -42,7 +42,7 @@ font-size: 15px;
 }
 
 #search_top_nav {
-    margin-left: 36px;
+    margin-left: 35px;
 }
 
 #third_nav {
@@ -115,7 +115,7 @@ select,
 }
 
 .dropdown_spacing {
-    padding-right: 32px;
+    padding-right: 30px;
 }
 
 .navbar2 {
@@ -123,8 +123,8 @@ select,
   margin-bottom: 18px;
 }
 .navbar-inner2 {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 22px;
+  
   background-color: rgb(255,255,255);
   
   /*
@@ -148,8 +148,8 @@ select,
 }
 
 #second_nav_dropdown_link {
-    font-size: 29px;
-    font-family: 'Parisienne', cursive;
+    font-size: 26px;
+    font-family: 'Mate SC', serif;
 }
 
 .btn-navbar {
@@ -249,7 +249,7 @@ select,
   left: 0;
   display: block;
   float: left;
-  margin: 0 10px 0 0;
+  margin: 0 90px 0 0;
 }
 .navbar2 .nav2.pull-right {
   float: right;
