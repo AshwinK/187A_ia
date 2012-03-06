@@ -88,7 +88,7 @@ ul.nav2 li.dropdown:hover ul.dropdown-menu{
 */
  
  .nav-tabs > li > a, .nav-pills > li > a {
-padding-right: 6px;
+padding-right: 7px;
 padding-left: 6px;
 margin-right: 2px;
 line-height: 14px;
@@ -395,6 +395,7 @@ select,
     -moz-background-size:; /* Firefox 3.6 */
     background-size:;
     background-repeat:no-repeat;
+    border-top: 1px solid black;
 }
 
 #footerlogo_pushright {
@@ -574,10 +575,41 @@ select,
 --------------------------------------------------------------------------------------------------------------
 */
 
-#walkofhonor {
-    height: 360px;
-    margin-left: 20px;
+#date {
+    color: rgb(277, 66, 52);
 }
+
+#calendar_header {
+    color: black;
+}
+
+#calendar_icon {
+    height: 45px;
+    width: 45px;
+    margin-left: -30px;
+    margin-top: -5px;
+    margin-right: 2px;
+}
+
+.events_header {
+    margin-left: 33px;
+}
+
+.events_header > a:hover {
+    color: rgb(277, 66, 52);
+}
+
+.calendar {
+    height: 338px;
+    width: 258px;
+    display: inline;
+    padding: 20px 20px 0px 20px;
+    background: #FFF;
+    margin-left: 10px;	
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}    
 
 #first_element {
     height: 120px;
@@ -625,8 +657,8 @@ select,
 
 #floating_news2 {
 	
-        margin-left: 73px;
-        margin-right: 58px;
+        margin-left: 77px;
+        margin-right: 62px;
         margin-top: 20px;
         margin-bottom: 20px;
 	padding: 20px 20px 0px 20px;
@@ -684,12 +716,14 @@ select,
 
 /*--------------------------------------------------Secondary Pages-------------------------------------------------*/
 
+
 #content_row_s {
     background:url(secondary_seal.jpg);
     background-color: rgb(239,239,239);
     -moz-background-size:; /* Firefox 3.6 */
     background-size:;
     background-repeat:repeat-x;
+    border-top: 1px solid black;
 }
 
 .sidebar-nav {
@@ -806,8 +840,9 @@ select,
 }
 
 .accordion-toggle {
-    color: rgb(81, 81, 81);
+    color: rgb(277, 66, 52);
     text-decoration: none;
+    font-size: 20px;
 }
 
 .accordion-toggle:hover {
@@ -918,3 +953,4 @@ select,
     height: 128px;
     margin-left: 30px;
 }
+
