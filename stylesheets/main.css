@@ -466,7 +466,7 @@ select,
 */
 
 #myCarousel {
-    margin-left: 25px;
+    margin-left: 180px;
    
 }
 
@@ -614,9 +614,9 @@ select,
 	padding: 20px 20px 0px 20px;
 	background: #FFF;
 
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	
 	-webkit-box-shadow:0 0 3px #666666; 
 	-moz-box-shadow: 0 0 3px #666666; 
