@@ -409,14 +409,14 @@ select,
 }
 
 #footer_address {
-    margin-left: 43px;
+    margin-left: 103px;
     margin-top: 22px;
     color: white;
     margin-top: 37px;
 }
 
 #footerbar {
-    margin-left: 246px;
+    margin-left: 156px;
     margin-top: 11px;
 }
 
@@ -954,3 +954,16 @@ select,
     margin-left: 30px;
 }
 
+.aboutuofl {
+    padding: 10px 20px 10px 20px;
+	background: #FFF;
+    margin-top: 51px;
+    border-top: 6px solid rgb(255, 0, 0);
+    width: 588px;
+}
+
+.campuspic {
+    width: 600px;
+    margin-left: 0px;
+
+}
